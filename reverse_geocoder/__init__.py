@@ -8,7 +8,7 @@ from __future__ import print_function
 __author__ = 'Ajay Thampi'
 import os
 import sys
-import csv
+import unicodecsv as csv
 if sys.platform == 'win32':
     # Windows C long is 32 bits, and the Python int is too large to fit inside.
     # Use the limit appropriate for a 32-bit integer as the max file size
